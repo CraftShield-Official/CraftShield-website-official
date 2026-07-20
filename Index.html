@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftshield School — твой старт в Minecraft-блоггинге</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background: #0d0d0d;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Шапка */
+        .hero {
+            text-align: center;
+            padding: 80px 20px 60px;
+            background: linear-gradient(145deg, #141414, #1f1f1f);
+            border-bottom: 2px solid #f0a500;
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .hero h1 span {
+            color: #f0a500;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            color: #b0b0b0;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        .btn {
+            display: inline-block;
+            background: #f0a500;
+            color: #0d0d0d;
+            font-weight: 700;
+            padding: 16px 48px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: 0.3s;
+            box-shadow: 0 0 20px rgba(240, 165, 0, 0.3);
+        }
+        .btn:hover {
+            background: #ffb700;
+            transform: scale(1.03);
+        }
+        /* Ступени */
+        .steps {
+            padding: 60px 0;
+            background: #141414;
+        }
+        .steps-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .step-card {
+            background: #1f1f1f;
+            padding: 30px 25px;
+            border-radius: 20px;
+            flex: 1 1 250px;
+            text-align: center;
+            border-left: 4px solid #f0a500;
+            transition: 0.3s;
+        }
+        .step-card:hover {
+            transform: translateY(-8px);
+            background: #2a2a2a;
+        }
+        .step-card h3 {
+            font-size: 1.6rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .step-card p {
+            color: #aaa;
+        }
+        /* Правила */
+        .rules {
+            padding: 60px 0;
+            background: #0d0d0d;
+        }
+        .rules ul {
+            list-style: none;
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+        .rules ul li {
+            padding: 12px 0;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .rules ul li::before {
+            content: "▸ ";
+            color: #f0a500;
+            font-weight: bold;
+        }
+        /* Моды */
+        .mods {
+            background: #141414;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .mods-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .mod-badge {
+            background: #2a2a2a;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 0.95rem;
+            color: #ccc;
+        }
+        /* Футер */
+        .footer {
+            background: #0a0a0a;
+            text-align: center;
+            padding: 30px 0;
+            border-top: 1px solid #222;
+            color: #666;
+        }
+        .footer a {
+            color: #f0a500;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 650px) {
+            .hero h1 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1>Craftshield <span>School</span></h1>
+            <p>Твой первый шаг в Minecraft-блоггинге. Снимай, строй, создавай сюжеты. 18+ · 0 подписчиков — не проблема.</p>
+            <a href="#" class="btn">Подать заявку →</a>
+        </div>
+    </section>
 
+    <section class="steps">
+        <div class="container">
+            <h2 style="text-align:center; font-size:2rem; color:#fff;">Как устроена экосистема</h2>
+            <div class="steps-grid">
+                <div class="step-card"><h3>🏫 School</h3><p>Лёгкие моды, наставничество, первые серии. Твой старт.</p></div>
+                <div class="step-card"><h3>🎓 Academy</h3><p>Серьёзные моды, сюжетные линии. Рост как автора.</p></div>
+                <div class="step-card"><h3>⚔️ Craftshield</h3><p>Флагманский сервер для лучших выпускников. Хардкор.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rules">
+        <div class="container">
+            <h2 style="text-align:center; font-size:2rem; color:#fff; margin-bottom:30px;">Правила приёма</h2>
+            <ul>
+                <li>Возраст 18+ (подтверждается голосом в Discord)</li>
+                <li>Любое количество подписчиков — даже 0</li>
+                <li>Тестовое видео 3–5 минут на тему Minecraft или блоггинга</li>
+                <li>Никаких заоблачных требований к монтажу — только желание</li>
+                <li>Обязательство снимать как минимум 1 серию в неделю</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="mods">
+        <div class="container">
+            <h2 style="font-size:2rem; color:#fff;">Моды для School</h2>
+            <p style="color:#aaa; margin-bottom:20px;">Устанавливай через Fabric 1.21.1</p>
+            <div class="mods-list">
+                <span class="mod-badge">Fabric API</span>
+                <span class="mod-badge">Xaero's Minimap</span>
+                <span class="mod-badge">Xaero's World Map</span>
+                <span class="mod-badge">REI</span>
+                <span class="mod-badge">Sodium (клиент)</span>
+                <span class="mod-badge">Industrium</span>
+                <span class="mod-badge">Hexalia</span>
+            </div>
+            <p style="margin-top:20px;"><a href="#" style="color:#f0a500;">Подробный гайд по установке →</a></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="#">YouTube</a> · 
+                <a href="#">Discord</a> · 
+                <a href="#">GitHub</a>
+            </p>
+            <p style="margin-top:15px;">© 2026 Craftshield Project. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
